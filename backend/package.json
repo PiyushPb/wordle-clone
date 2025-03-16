@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This project is the backend for a Wordle clone built using React JS for the frontend. The backend exposes a simple API that serves the necessary data for users to play the game. It handles word selection, validation, and tracking of guesses, allowing multiple users to play the game simultaneously. The API is designed to be integrated with a React frontend where users can interact with the Wordle game. The backend is lightweight, efficient, and ready to handle high-traffic use cases for a real-time multiplayer Wordle experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
