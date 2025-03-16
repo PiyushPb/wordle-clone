@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "PiyushPb",
+  "github": "https://github.com/PiyushPb/wordle-clone/",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
